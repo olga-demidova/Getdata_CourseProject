@@ -20,3 +20,4 @@ tidy_data <- select(selected_df2, subject, activity_label, 3:75)
 data_melt <- melt(tidy_data, id.vars=c("subject", "activity_label"))
 tidy_data2 <- dcast(data_melt, subject+activity_label ~ variable, mean)
 rm(merged_df, activity_label, selected_df, selected_df2, data_melt)
+tidy_data2

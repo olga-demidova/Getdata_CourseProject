@@ -1,4 +1,4 @@
-The resulting data base has 75 variables.
+The resulting data base has 69 variables.
 1. subject - A variable showing which subject (by number from 1 to 30) of those participated in the experiment the data describe.
 2. activity_label - A variable describing which activity was performed by the subject (6 options: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 3-69. Average mean and average standard deviation for each of the following signals estimating variables of the feature vector for each pattern:  
